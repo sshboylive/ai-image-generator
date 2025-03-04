@@ -35,14 +35,14 @@
 3. 运行以下命令：
 
 ```bash
-cd c:\Users\sshbo\Desktop\ai-image-generator
+cd c:\Users\用户名\Desktop\ai-image-generator            
 npm start
 ```
 
 如果这是第一次运行项目，可能需要先安装依赖：
 
 ```bash
-cd c:\Users\sshbo\Desktop\ai-image-generator
+cd c:\Users\用户名\Desktop\ai-image-generator            
 npm install
 npm start
 ```
