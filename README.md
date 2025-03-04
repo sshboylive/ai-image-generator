@@ -1,16 +1,22 @@
-# ai-image-generator
-基于SD XL模型生成图像
-# AI图像生成器
 
-这是一个基于Hugging Face API的AI图像生成器，可以通过文字描述生成相应的图像。
+2. 保存文件后，将其标记为已解决：
+
+```bash
+git add README.md# AI图像生成器
+
+基于Stable Diffusion XL模型的AI图像生成工具，可以通过文字描述生成高质量图像。
+
+## 在线使用
+
+访问：[https://sshboylive.github.io/ai-image-generator](https://sshboylive.github.io/ai-image-generator)
 
 ## 使用方法
 
-1. 访问 https://你的用户名.github.io/ai-image-generator
-2. 输入你的Hugging Face API密钥（可以在[这里](https://huggingface.co/settings/tokens)获取）
-3. 选择一个AI模型
-4. 输入描述文字
-5. 可选：设置反向提示词和高级参数
+1. 获取Hugging Face API密钥（在[这里](https://huggingface.co/settings/tokens)申请）
+2. 在应用中输入您的API密钥
+3. 选择一个AI模型（推荐使用Stable Diffusion XL获得最佳效果）
+4. 输入详细的图像描述
+5. 可选：设置反向提示词和调整高级参数
 6. 点击"生成图像"按钮
 
 ## 功能特点
@@ -18,40 +24,19 @@
 - 支持多种Stable Diffusion模型
 - 可调整图像尺寸、推理步数、引导比例等参数
 - 支持种子值设置，可以复现特定图像
+- 移动端友好的响应式设计
 
-## 注意事项
+## 技术栈
 
-- 需要Hugging Face账号和API密钥
-- 图像生成速度取决于Hugging Face服务器负载
-- 请遵守Hugging Face的使用条款
-要运行这个AI图像生成器项目，我需要先了解项目的结构。看起来这是一个React项目，因为我看到了public/index.html文件，这是典型的React项目结构。
+- React
+- Tailwind CSS
+- Hugging Face API
 
-要运行这个项目，您需要执行以下步骤：
+## 本地运行
 
-1. 首先，确保您已经安装了Node.js和npm
+这是一个纯前端项目，不需要安装Node.js或其他依赖。只需要：
 
-2. 打开命令提示符或PowerShell，导航到项目目录
-
-3. 运行以下命令：
-
+1. 克隆仓库
 ```bash
-cd c:\Users\用户名\Desktop\ai-image-generator            
-npm start
+git clone https://github.com/sshboylive/ai-image-generator.git
 ```
-
-如果这是第一次运行项目，可能需要先安装依赖：
-
-```bash
-cd c:\Users\用户名\Desktop\ai-image-generator            
-npm install
-npm start
-```
-
-这将启动开发服务器，并在浏览器中自动打开应用程序（通常是在 http://localhost:3000）。
-
-如果遇到问题，可能是因为：
-1. 项目依赖未安装
-2. package.json文件缺失或配置不正确
-3. 项目源代码结构不完整
-
-如果您遇到特定错误，请告诉我具体的错误信息，我可以提供更具针对性的帮助。
