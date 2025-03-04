@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-# AI图像生成器
+
+2. 保存文件后，将其标记为已解决：
+
+```bash
+git add README.md# AI图像生成器
 
 基于Stable Diffusion XL模型的AI图像生成工具，可以通过文字描述生成高质量图像。
 
@@ -36,7 +39,4 @@
 1. 克隆仓库
 ```bash
 git clone https://github.com/sshboylive/ai-image-generator.git
-=======
-# ai-image-generator
-基于SD XL模型生成图像
->>>>>>> 99c865df6680b7f300a486291b2eed5dc32a9f00
+```
