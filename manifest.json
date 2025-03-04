@@ -1,0 +1,21 @@
+{
+  "name": "AI图像生成器",
+  "short_name": "AI图像",
+  "description": "输入文字描述，AI将为您生成相应的图像",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
