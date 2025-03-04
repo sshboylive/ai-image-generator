@@ -164,7 +164,7 @@
                                 <input
                                     type="password"
                                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
-                                    placeholder="输入您的Hugging Face API密钥"
+                                    placeholder="输入您的Hugging Face API密钥或使用默认值"
                                     value={apiKey}
                                     onChange={(e) => setApiKey(e.target.value)}
                                 />
@@ -172,6 +172,7 @@
                                     <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">
                                         点击这里获取API密钥
                                     </a>
+                                    {" 或使用默认提供的公开API密钥"}
                                 </p>
                             </div>
                             {/* 其余控制面板内容保持不变 */}
